@@ -3,7 +3,7 @@
 # Author: sirpdboy
 # https://github.com/sirpdboy/Openwrt
 
-name: openwrt - CI
+name: openwrt CI
 on:
   schedule:
     - cron: 0 20 * * *
