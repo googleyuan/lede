@@ -4,6 +4,7 @@
 # https://github.com/sirpdboy/Openwrt
 
 name: OpenWrt-CI
+
 on:
   schedule:
     - cron: 0 20 * * *
