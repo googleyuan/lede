@@ -38,10 +38,6 @@ jobs:
           sudo -E apt-get clean
      - name: Prepare Openwrt
        run: |
-        sudo chown -R runner:runner /home/runner/work/openwrt
-        cp -r ./scripts/ready_download.sh ./  &&/bin/bash ready_download.sh
-     - name: Prepare Package
-       run: |
         cd openwrt
         cp -r ../scripts/update_package.sh ./ &&/bin/bash update_package.sh
         chmod -R 755 ./
